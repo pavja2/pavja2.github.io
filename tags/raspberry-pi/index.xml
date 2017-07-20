@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raspberry Pi on My New Hugo Site</title>
-    <link>http://pavja2.github.io/pavursec/tags/raspberry-pi/</link>
+    <link>http://pavja2.github.io/tags/raspberry-pi/</link>
     <description>Recent content in Raspberry Pi on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jul 2017 11:16:39 -0400</lastBuildDate>
     
-	<atom:link href="http://pavja2.github.io/pavursec/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pavja2.github.io/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pi Guard</title>
-      <link>http://pavja2.github.io/pavursec/project/pi-guard/</link>
+      <link>http://pavja2.github.io/project/pi-guard/</link>
       <pubDate>Thu, 20 Jul 2017 11:16:39 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/pavursec/project/pi-guard/</guid>
+      <guid>http://pavja2.github.io/project/pi-guard/</guid>
       <description>Pi Guard Pi Guard was a hackathon project focused on filling the gap between consumer security options for personal computers and comparable offerings for embedded and internet of things products.
 The device hosts a simple web application which acts as a wrapper for a number of automated scans that take place on the local IP range. The automated scans are designed to be modular and flexible so that multiple &amp;lsquo;plugins&amp;rsquo; might be written for the platform and the UI is oriented towards non-technical users.</description>
     </item>
     
     <item>
       <title>Pi Spy</title>
-      <link>http://pavja2.github.io/pavursec/project/pi-spy/</link>
+      <link>http://pavja2.github.io/project/pi-spy/</link>
       <pubDate>Thu, 20 Jul 2017 10:49:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/pavursec/project/pi-spy/</guid>
+      <guid>http://pavja2.github.io/project/pi-spy/</guid>
       <description>Pi Spy Pi spy was an entry my hackathon team made with the goal of demonstrating a novel attack vector against unencrypted network traffic.
 The project revolved around a malicious NIC installation that included a raspberry-pi running tcpdump and a passive network tap that intercepted all traffic from the desktop&amp;rsquo;s ethernet port.
 By powering the raspberry-pi off of the Molex adapters from the PC&amp;rsquo;s PSU we were able to ensure that the pi ran continuously whenever the PC was turned on.</description>
@@ -34,10 +34,10 @@ By powering the raspberry-pi off of the Molex adapters from the PC&amp;rsquo;s P
     
     <item>
       <title>Tea Pi</title>
-      <link>http://pavja2.github.io/pavursec/project/tea-pi/</link>
+      <link>http://pavja2.github.io/project/tea-pi/</link>
       <pubDate>Wed, 19 Jul 2017 23:36:03 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/pavursec/project/tea-pi/</guid>
+      <guid>http://pavja2.github.io/project/tea-pi/</guid>
       <description>Tea Pi As a huge tea aficionado, it makes sense that one of my first hardware projects was to #buildabetterteapot. Tea Pi began as a project worked on between classes in my freshman year dormitory at Georgetown. Although the assorted wires, inept soldering, and endless sessions of me yelling at a e-cycled web camera to get voice-controls to work may have unnerved my roommate, the end result was well worth it.</description>
     </item>
     

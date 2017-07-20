@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Games on My New Hugo Site</title>
-    <link>http://pavja2.github.io/pavursec/tags/games/</link>
+    <link>http://pavja2.github.io/tags/games/</link>
     <description>Recent content in Games on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jul 2017 12:50:13 -0400</lastBuildDate>
     
-	<atom:link href="http://pavja2.github.io/pavursec/tags/games/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pavja2.github.io/tags/games/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Adventures of Hackergirl</title>
-      <link>http://pavja2.github.io/pavursec/project/hackergirl/</link>
+      <link>http://pavja2.github.io/project/hackergirl/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/pavursec/project/hackergirl/</guid>
+      <guid>http://pavja2.github.io/project/hackergirl/</guid>
       <description>The Adventures of Hackergirl One of the greatest shortcomings of the information security industry today is the egregious gender gap among information security professionals. The fact that fewer than one in ten cybersecurity professionals are female directly increases the risks faced by our society in cyberspace.
 Although successful and admirable efforts have been made to incorporate women into the software development world through organizations like Women Who Code, comparatively little thought has been paid to the gender gap in information security.</description>
     </item>
