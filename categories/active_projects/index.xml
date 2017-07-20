@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Active_projects on My New Hugo Site</title>
+    <link>http://pavja2.github.io/pavursec/categories/active_projects/</link>
+    <description>Recent content in Active_projects on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jul 2017 13:39:29 -0400</lastBuildDate>
+    
+	<atom:link href="http://pavja2.github.io/pavursec/categories/active_projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pavursec.org</title>
+      <link>http://pavja2.github.io/pavursec/project/pavursec-org/</link>
+      <pubDate>Thu, 20 Jul 2017 13:39:29 -0400</pubDate>
+      
+      <guid>http://pavja2.github.io/pavursec/project/pavursec-org/</guid>
+      <description>pavursec.org In addition to serving as the standard bootstrap-heavy web portfolio. This site provides a location for me to consolidate my thoughts, projects, and web persona as well as an opportunity to experiment with new technologies.
+As I work on new projects they&amp;rsquo;ll be added to this site - wherever they may be hosted. It also hosts my blog where I&amp;rsquo;ll share my thoughts on cyberpolicy, security research discoveries and disclosures, and general technical musings.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+.card-clickable-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  color: grey;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.card {
+  background-color: transparent;
+  border-color: grey;
+}
+
+hr {
+  border-top-color: grey;
+}
+
+.media-image {
+  max-width: 40%;
+  height: auto;
+}

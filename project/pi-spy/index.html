@@ -1,0 +1,125 @@
+<head>
+<script src="https://use.fontawesome.com/bc441f02a6.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/pavursec.css">
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+</head>
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="buttom" data-toggle="collapse" data-target="#navbar-content">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="/">
+    <img src="/img/logo_45_white.png" width="30" height="30">
+  </a>
+
+<div class="collapse navbar-collapse" id="navbar-content">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="/project">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/blog">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/about">About</a>
+    <li>
+  </ul>
+</div>
+</nav>
+<br>
+
+<div class="container">
+
+<div class="card">
+  <div class="container">
+    <br>
+    <div class="media">
+      
+      <img class="d-flex mr-3 rounded media-image" max-height="30" src='/img/project/pi-spy/pi-spy.jpg'>
+      
+      <div class="media-body">
+        <h3 class="mt-0"> Pi Spy</h3>
+        
+          <p class="lead">
+            A raspberry-pi network vampire that sniffs traffic while hiding inside your PC tower.
+          </p>
+        
+        
+          <p>
+            <b> Status: </b>
+          
+            <span class="text-success"> Complete </span>
+          
+          </p>
+        
+        
+          
+          <span>
+            
+              
+                <a class="" href='https://devpost.com/software/pispy'>
+                  <img style="vertical-align: bottom;" height="30" src='/img/devpost_icon.svg'>
+                </a>
+              
+            
+          </span>
+          
+        
+      </div>
+    </div>
+    <br>
+    
+    <p>
+      
+        
+      
+        
+          <a class="badge badge-default" href="/categories/security">Security</a>
+        
+      
+        
+          <a class="badge badge-default" href="/categories/completed_projects">Completed Projects</a>
+        
+      
+    </p>
+    
+  </div>
+</div>
+<br>
+
+
+
+<h1 id="pi-spy">Pi Spy</h1>
+
+<p>Pi spy was an entry my hackathon team made with the goal of demonstrating a novel attack vector against unencrypted network traffic.</p>
+
+<p>The project revolved around a malicious NIC installation that included a raspberry-pi running tcpdump and a passive network tap that intercepted all traffic from the desktop&rsquo;s ethernet port.</p>
+
+<p>By powering the raspberry-pi off of the Molex adapters from the PC&rsquo;s PSU we were able to ensure that the pi ran continuously whenever the PC was turned on. This allowed us to man-in-the middle all traffic to the device and exfiltrate the data via an out-of-band wifi or GSM connection.</p>
+
+<p>The whole hardware rig takes less than 5 minutes to plug in with practice and provides near invisible network tapping capabilities. Since the MITM happens external to the desktop, a system administrator would not be able to detect the hardware changes short of physically opening up the tower and searching for bugs.</p>
+
+<p>This not only serves as an effective demonstration of the risk of allowing untrusted parties physical access to devices (even if those devices have robust software and password protections), it also presents a potential approach for obtaining wiretaps in law enforcement or intelligence collection capacities when targeting a technically sophisticated user like a network administrator who would notice additions to the phone closet or configuration changes on network switches. Thanks to the raspberry-pi&rsquo;s affordability, the device is also extremely cost competitive compared to less robustly-featured commercial network taps.</p>
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+</div>

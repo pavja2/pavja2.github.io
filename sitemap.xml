@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/blog/is-hugo-secure/</loc>
+    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/project/pavursec-org/</loc>
+    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/project/hackergirl/</loc>
+    <lastmod>2017-07-20T12:50:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/project/typeface/</loc>
+    <lastmod>2017-07-20T12:27:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/project/pi-guard/</loc>
+    <lastmod>2017-07-20T11:16:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/project/pi-spy/</loc>
+    <lastmod>2017-07-20T10:49:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/project/vr-data-mapper/</loc>
+    <lastmod>2017-07-20T00:17:08-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/project/tea-pi/</loc>
+    <lastmod>2017-07-19T23:36:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/about/</loc>
+    <lastmod>2017-07-14T21:26:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/accessibility/</loc>
+    <lastmod>2017-07-20T12:27:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/categories/active_projects/</loc>
+    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/blog/</loc>
+    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/blog/</loc>
+    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/categories/</loc>
+    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/categories/completed_projects/</loc>
+    <lastmod>2017-07-20T12:50:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/data/</loc>
+    <lastmod>2017-07-20T00:17:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/categories/development/</loc>
+    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/games/</loc>
+    <lastmod>2017-07-20T12:50:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/gender/</loc>
+    <lastmod>2017-07-20T12:50:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/hackathon/</loc>
+    <lastmod>2017-07-20T00:17:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/hardware/</loc>
+    <lastmod>2017-07-20T12:27:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/hugo/</loc>
+    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/categories/inventing/</loc>
+    <lastmod>2017-07-19T23:36:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/iot/</loc>
+    <lastmod>2017-07-20T11:16:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/</loc>
+    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/networking/</loc>
+    <lastmod>2017-07-20T10:49:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/personal/</loc>
+    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/physical-security/</loc>
+    <lastmod>2017-07-20T10:49:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/policy/</loc>
+    <lastmod>2017-07-20T12:50:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/project/</loc>
+    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/categories/projects/</loc>
+    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/raspberry-pi/</loc>
+    <lastmod>2017-07-20T11:16:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/robot/</loc>
+    <lastmod>2017-07-19T23:36:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/scanning/</loc>
+    <lastmod>2017-07-20T11:16:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/categories/security/</loc>
+    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/security/</loc>
+    <lastmod>2017-07-20T12:50:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/sniffing/</loc>
+    <lastmod>2017-07-20T10:49:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/</loc>
+    <lastmod>2017-07-20T12:27:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/tea/</loc>
+    <lastmod>2017-07-19T23:36:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/unity/</loc>
+    <lastmod>2017-07-20T12:50:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/visualization/</loc>
+    <lastmod>2017-07-20T00:17:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/vr/</loc>
+    <lastmod>2017-07-20T00:17:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/pavursec/tags/web/</loc>
+    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

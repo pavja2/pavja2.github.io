@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on My New Hugo Site</title>
+    <link>http://pavja2.github.io/pavursec/categories/security/</link>
+    <description>Recent content in Security on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jul 2017 15:03:11 -0400</lastBuildDate>
+    
+	<atom:link href="http://pavja2.github.io/pavursec/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Static Sites: The Ideal Security Blogging Platform</title>
+      <link>http://pavja2.github.io/pavursec/blog/is-hugo-secure/</link>
+      <pubDate>Thu, 20 Jul 2017 15:03:11 -0400</pubDate>
+      
+      <guid>http://pavja2.github.io/pavursec/blog/is-hugo-secure/</guid>
+      <description>Juggling Priorities It should come as no surprise that, when building this site, my first concern was security. This arose partially from the fact that I live and breathe cybersecurity and believe (not without cause) that the whole internet is out to get me. However, it&amp;rsquo;s also true that sites focused on cyber issues tend to present attractive targets to hackers attempting to prove their skills and gain some renown with people who might actually appreciate their accomplishments.</description>
+    </item>
+    
+    <item>
+      <title>Pi Guard</title>
+      <link>http://pavja2.github.io/pavursec/project/pi-guard/</link>
+      <pubDate>Thu, 20 Jul 2017 11:16:39 -0400</pubDate>
+      
+      <guid>http://pavja2.github.io/pavursec/project/pi-guard/</guid>
+      <description>Pi Guard Pi Guard was a hackathon project focused on filling the gap between consumer security options for personal computers and comparable offerings for embedded and internet of things products.
+The device hosts a simple web application which acts as a wrapper for a number of automated scans that take place on the local IP range. The automated scans are designed to be modular and flexible so that multiple &amp;lsquo;plugins&amp;rsquo; might be written for the platform and the UI is oriented towards non-technical users.</description>
+    </item>
+    
+    <item>
+      <title>Pi Spy</title>
+      <link>http://pavja2.github.io/pavursec/project/pi-spy/</link>
+      <pubDate>Thu, 20 Jul 2017 10:49:13 -0400</pubDate>
+      
+      <guid>http://pavja2.github.io/pavursec/project/pi-spy/</guid>
+      <description>Pi Spy Pi spy was an entry my hackathon team made with the goal of demonstrating a novel attack vector against unencrypted network traffic.
+The project revolved around a malicious NIC installation that included a raspberry-pi running tcpdump and a passive network tap that intercepted all traffic from the desktop&amp;rsquo;s ethernet port.
+By powering the raspberry-pi off of the Molex adapters from the PC&amp;rsquo;s PSU we were able to ensure that the pi ran continuously whenever the PC was turned on.</description>
+    </item>
+    
+  </channel>
+</rss>
