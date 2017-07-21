@@ -1,3 +1,42 @@
+/* Sitewide */
+body {
+  background-color: #1a1b1b;
+  color: grey;
+}
+
+h1 {
+  color: white;
+}
+
+hr {
+  border-top-color: grey;
+}
+
+a:link {
+  color: lightGray;
+}
+
+a:visited {
+  color: lightGray;
+}
+
+.card {
+  background-color: transparent;
+  border-color: grey;
+}
+
+.media-image {
+  max-width: 40%;
+  height: auto;
+}
+
+/* About Page */
+.about-image{
+  max-width: 30%;
+  max-height: 300px;
+}
+
+/* Project List */
 .card-clickable-link {
   position: absolute;
   top: 0;
@@ -6,29 +45,32 @@
   width: 100%;
 }
 
-body {
-  background-color: black;
-  color: grey;
-}
-
-a:link {
+.card h2 {
   color: white;
 }
 
-a:visited {
+/* Articles */
+.markdown-content h2 {
   color: white;
+  line-height: 2;
 }
 
-.card {
-  background-color: transparent;
-  border-color: grey;
+.markdown-content figure {
+  text-align: center;
 }
 
-hr {
-  border-top-color: grey;
-}
-
-.media-image {
-  max-width: 40%;
+.markdown-content .fig-75 img {
+  max-width: 75%;
   height: auto;
+}
+
+.markdown-content .fig-50 img{
+  max-width: 50%;
+  height: auto;
+}
+
+.markdown-content
+
+.markdown-content code {
+  background-color: rgba(211, 211, 211, .8);
 }

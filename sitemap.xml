@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://pavja2.github.io/blog/is-hugo-secure/</loc>
+    <loc>http://pavja2.github.io/blog/static-security/</loc>
+    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pavja2.github.io/blog/why-static/</loc>
     <lastmod>2017-07-20T15:03:11-04:00</lastmod>
   </url>
   
@@ -67,7 +72,7 @@
   
   <url>
     <loc>http://pavja2.github.io/blog/</loc>
-    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,7 +144,7 @@
   
   <url>
     <loc>http://pavja2.github.io/</loc>
-    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
