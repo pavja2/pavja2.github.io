@@ -1,0 +1,162 @@
+<head>
+<script src="https://use.fontawesome.com/bc441f02a6.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/pavursec.css">
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+</head>
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="buttom" data-toggle="collapse" data-target="#navbar-content">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="/">
+    <img src="/img/logo_45_white.png" width="30" height="30">
+  </a>
+
+<div class="collapse navbar-collapse" id="navbar-content">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="/project">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/blog">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/about">About</a>
+    <li>
+  </ul>
+</div>
+</nav>
+<br>
+
+<div class="container">
+
+
+
+
+
+  <h1 class="display-4">
+    Static Sites: The Ideal Security Blogging Platform
+  </h1>
+
+  <p>
+    <small><em>
+      Posted: July 20, 2017 by James Pavur
+    </small></em>
+  </p>
+  <hr/>
+  <div class="container markdown-content">
+    
+
+<h2 id="juggling-priorities">Juggling Priorities</h2>
+
+<p>It should come as no surprise that, when building this site, my first concern was security. This arose partially from the fact that I live and breathe cybersecurity and believe (not without cause) that the whole internet is out to get me. However, it&rsquo;s also true that sites focused on cyber issues tend to present attractive targets to hackers attempting to prove their skills and gain some renown with people who might actually appreciate their accomplishments.</p>
+
+<p>Building a secure application is always a balancing act between locking everything down and providing a feature-rich experience to the end user. For example, I could maintain a very secure blog by hand-writing posts on a sheet of paper, biking to a random telephone pole each morning, and stapling my blog post to it. Barring the site of me struggling uphill on my bike attracting the attention of an untoward mugger, this approach to blogging is virtually risk-free.</p>
+
+
+<figure class="fig-50">
+    
+        <img src="/img/blog/why_static/phone_sign.png" alt="Also, why I don&#39;t do graphic design." />
+    
+    
+    <figcaption>
+        <p>
+        The most secure blog ever
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>Alternatively, I could provide my users with SSH keys and sudoer accounts to my server and let them write fully featured comments in .php and display them right on the site. This would constitute a more or less unrivaled feature-density for a blog but would also cause quite a lot of trouble for the innocent victims who happen to visit my site.</p>
+
+
+<figure class="fig-75">
+    
+        <img src="/img/blog/why_static/worst_blog.png" alt="The least secure blog ever (concept art)" />
+    
+    
+    <figcaption>
+        <p>
+        The least secure blog ever (concept art)
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<h2 id="the-appeal-of-all-static">The appeal of all-static</h2>
+
+<p>For me, the end objective in building a secure blog was to get as close as possible to the &lsquo;sheet of paper pinned to telephone pole&rsquo; approach while still taking advantage of this internet thing and making a somewhat respectable looking site for myself.</p>
+
+<p>To this end, static sites are great. They serve a handful of files to the client browser and then everything else from how the site looks to how it behaves is up to the client.</p>
+
+<p>The downside of static sites is that they <a href="http://www.wonder-tonic.com/geocitiesizer/">tend to look like they were made in 1995</a> and are a pain to update change since boilerplate code must be repeated on every page and edits require interacting directly with the HTML.</p>
+
+
+<figure class="fig-50">
+    
+        <img src="/img/blog/why_static/hugo_logo.png" alt="Better than a telephone pole, nearly as safe." />
+    
+    
+    <figcaption>
+        <p>
+        Better than a telephone pole, nearly as safe.
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>Enter static-site generators like <a href="https://gohugo.io/">Hugo</a>, <a href="http://jekyllrb.com">Jekyl</a>, <a href="http://hyde.github.io/">Hyde</a>, <a href="http://brunch.io/">Brunch</a>, <a href="http://laktek.github.io/punch/">Punch</a>, <a href="https://sysgears.com/grain/">Grain</a>, etc.</p>
+
+<p>Despite the fact that you can pick almost any 4-5 letter noun and find a corresponding static site generator, static sites made by these tools constitute a miniscule portion of the net&rsquo;s inherently static content. Indeed, tools like Drupal, Joomla!, and the all-powerful Wordpress dominate web content and tend to open users up to risks they don&rsquo;t really need to take for the content they&rsquo;re serving.</p>
+
+<p>Modern site generators like Hugo (which builds this site) support many of the useful features folks have come to expect from CMS applications and webapp servers. I can define templates so all of my posts and pages look the same. I can write my text using markdown instead of html. I can even automatically generate lists of related posts, hide posts while I&rsquo;m drafting them, and include custom content in every template.</p>
+
+<p>Static sites are also extremely performant. At the time of this post my entire blog is less than 2MB (outsource the image files to a free hosting site and that&rsquo;s less than 200KB). This content is cache-friendly, inherently easy for search engines and screen-readers to navigate, and painless to backup and deploy.</p>
+
+<p>As an added bonus, I can stick my site on services like Github pages, or in an Amazon S3 bucket. These services are the equivalent of internet telephone poles. They&rsquo;re cheap (or free), publicly visible, and delightfully impersonal. I don&rsquo;t have to worry about keeping them updated, applying the latest security patches, tracking CVEs, or sanitizing user inputs. I just shout out into the void and anyone can choose to listen however and whenever they please.</p>
+
+<h2 id="downsides">Downsides</h2>
+
+<p>The cost and security benefits of an all-static site don&rsquo;t come free, of course.</p>
+
+<p>The biggest trade-off is the loss of interactive and persistent applications. Although <code>localstorage</code> and javascript allow for some pretty robust client-side functionality on modern browsers, nothing can rival a full-fledged server with a database when it comes to serving dynamic data.</p>
+
+<p>Furthermore, the initial jump to static sites is a little tougher than simply installing a CMS. There&rsquo;s an overwhelming range of options and it&rsquo;s hard to judge which offerings will maintain community support in the distant future and which will be abandoned. Each static site generator has it&rsquo;s own conventions and practices and they take time to pick up - even if you&rsquo;re coming from a web development background.</p>
+
+<p>Finally, static sties require internal trust. There&rsquo;s no inherent access controls or permission levels for multi-editor sites. Anyone on the editorial team can stick content anywhere without issue. Although there are ways around this (see my upcoming post on security strategies in static site generation), it represents a pretty hard-hitting feature loss when compared to robust CMS products on the market.</p>
+
+<h2 id="recap">Recap</h2>
+
+<p>Static is the perfect fit for a site like this - one which revolves around serving content, giving me the power to customize as I see fit, and remaining fast, affordable, and secure. It&rsquo;s not the perfect choice for every website, or even every blog, but it strikes a good balance and tends to be an under-appreciated option.</p>
+
+  </div>
+  <hr/>
+  <div class="container clearfix">
+    
+    
+      <a class="btn btn-outline-secondary float-right" href="http://pavja2.github.io/blog/static-security/" role="button">
+        Next
+      </a>
+    
+  </div>
+
+</div>
