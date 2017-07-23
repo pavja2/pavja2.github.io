@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://pavja2.github.io/</link>
+    <link>http://pavursec.com/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jul 2017 20:05:37 -0400</lastBuildDate>
     
-	<atom:link href="http://pavja2.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pavursec.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5 Security Concerns When Using Static Site Generators</title>
-      <link>http://pavja2.github.io/blog/static-security/</link>
+      <link>http://pavursec.com/blog/static-security/</link>
       <pubDate>Thu, 20 Jul 2017 20:05:37 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/blog/static-security/</guid>
+      <guid>http://pavursec.com/blog/static-security/</guid>
       <description>Static == Secure Right? If you&amp;rsquo;ve read my recent post extolling the virtues of static site generators for secure web development you might think that deploying a static site makes you more or less invulnerable to cyber adversaries. Although it&amp;rsquo;s true that going static dramatically reduces your vulnerability profile, it doesn&amp;rsquo;t quite eliminate it.
 This post considers five possible attack vectors against websites built with static generators (e.g. Jekyl, Hugo, etc.</description>
     </item>
     
     <item>
       <title>Static Sites: The Ideal Security Blogging Platform</title>
-      <link>http://pavja2.github.io/blog/why-static/</link>
+      <link>http://pavursec.com/blog/why-static/</link>
       <pubDate>Thu, 20 Jul 2017 15:03:11 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/blog/why-static/</guid>
+      <guid>http://pavursec.com/blog/why-static/</guid>
       <description>Juggling Priorities It should come as no surprise that, when building this site, my first concern was security. This arose partially from the fact that I live and breathe cybersecurity and believe (not without cause) that the whole internet is out to get me. However, it&amp;rsquo;s also true that sites focused on cyber issues tend to present attractive targets to hackers attempting to prove their skills and gain some renown with people who might actually appreciate their accomplishments.</description>
     </item>
     
     <item>
       <title>pavursec.org</title>
-      <link>http://pavja2.github.io/project/pavursec-org/</link>
+      <link>http://pavursec.com/project/pavursec-org/</link>
       <pubDate>Thu, 20 Jul 2017 13:39:29 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/project/pavursec-org/</guid>
+      <guid>http://pavursec.com/project/pavursec-org/</guid>
       <description>pavursec.org In addition to serving as the standard bootstrap-heavy web portfolio. This site provides a location for me to consolidate my thoughts, projects, and web persona as well as an opportunity to experiment with new technologies.
 As I work on new projects they&amp;rsquo;ll be added to this site - wherever they may be hosted. It also hosts my blog where I&amp;rsquo;ll share my thoughts on cyberpolicy, security research discoveries and disclosures, and general technical musings.</description>
     </item>
     
     <item>
       <title>The Adventures of Hackergirl</title>
-      <link>http://pavja2.github.io/project/hackergirl/</link>
+      <link>http://pavursec.com/project/hackergirl/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/project/hackergirl/</guid>
+      <guid>http://pavursec.com/project/hackergirl/</guid>
       <description>The Adventures of Hackergirl One of the greatest shortcomings of the information security industry today is the egregious gender gap among information security professionals. The fact that fewer than one in ten cybersecurity professionals are female directly increases the risks faced by our society in cyberspace.
 Although successful and admirable efforts have been made to incorporate women into the software development world through organizations like Women Who Code, comparatively little thought has been paid to the gender gap in information security.</description>
     </item>
     
     <item>
       <title>Typeface</title>
-      <link>http://pavja2.github.io/project/typeface/</link>
+      <link>http://pavursec.com/project/typeface/</link>
       <pubDate>Thu, 20 Jul 2017 12:27:47 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/project/typeface/</guid>
+      <guid>http://pavursec.com/project/typeface/</guid>
       <description>Typeface Typeface was the winner of the first Hoya Hacks hackathon at Georgetown University. The goal was to build a device that would allow even a fully paralyzed individual to communicated at a reasonable rate with loved ones.
 The proof of concept device leverages the Muse Headband - a consumer product prices at less than $300 and targeted towards helping individuals meditate and improve mindfulness.
 The UI of the project was inspired by stories of &amp;ldquo;tap codes&amp;rdquo; used by Vietnam Prisoners of War to communicate with each other without relying on the more complicated Morse Code.</description>
@@ -63,20 +63,20 @@ The UI of the project was inspired by stories of &amp;ldquo;tap codes&amp;rdquo;
     
     <item>
       <title>Pi Guard</title>
-      <link>http://pavja2.github.io/project/pi-guard/</link>
+      <link>http://pavursec.com/project/pi-guard/</link>
       <pubDate>Thu, 20 Jul 2017 11:16:39 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/project/pi-guard/</guid>
+      <guid>http://pavursec.com/project/pi-guard/</guid>
       <description>Pi Guard Pi Guard was a hackathon project focused on filling the gap between consumer security options for personal computers and comparable offerings for embedded and internet of things products.
 The device hosts a simple web application which acts as a wrapper for a number of automated scans that take place on the local IP range. The automated scans are designed to be modular and flexible so that multiple &amp;lsquo;plugins&amp;rsquo; might be written for the platform and the UI is oriented towards non-technical users.</description>
     </item>
     
     <item>
       <title>Pi Spy</title>
-      <link>http://pavja2.github.io/project/pi-spy/</link>
+      <link>http://pavursec.com/project/pi-spy/</link>
       <pubDate>Thu, 20 Jul 2017 10:49:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/project/pi-spy/</guid>
+      <guid>http://pavursec.com/project/pi-spy/</guid>
       <description>Pi Spy Pi spy was an entry my hackathon team made with the goal of demonstrating a novel attack vector against unencrypted network traffic.
 The project revolved around a malicious NIC installation that included a raspberry-pi running tcpdump and a passive network tap that intercepted all traffic from the desktop&amp;rsquo;s ethernet port.
 By powering the raspberry-pi off of the Molex adapters from the PC&amp;rsquo;s PSU we were able to ensure that the pi ran continuously whenever the PC was turned on.</description>
@@ -84,29 +84,29 @@ By powering the raspberry-pi off of the Molex adapters from the PC&amp;rsquo;s P
     
     <item>
       <title>VR Data Mapper</title>
-      <link>http://pavja2.github.io/project/vr-data-mapper/</link>
+      <link>http://pavursec.com/project/vr-data-mapper/</link>
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/project/vr-data-mapper/</guid>
+      <guid>http://pavursec.com/project/vr-data-mapper/</guid>
       <description>VR Data Mapper At Bitcamp 2015 my team worked to find a way to best display open source data from the DC government using VR technology. This project allows a user to observe a map of Washington DC&amp;rsquo;s wards through an Oculus rift and display a number of geographically impacted datasets on the map.
 By using the Leap Motion, we were able to integrate hand gestures and sophisticated menus, simplifying complex operations and allowing users to focus on exploring the data before them.</description>
     </item>
     
     <item>
       <title>Tea Pi</title>
-      <link>http://pavja2.github.io/project/tea-pi/</link>
+      <link>http://pavursec.com/project/tea-pi/</link>
       <pubDate>Wed, 19 Jul 2017 23:36:03 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/project/tea-pi/</guid>
+      <guid>http://pavursec.com/project/tea-pi/</guid>
       <description>Tea Pi As a huge tea aficionado, it makes sense that one of my first hardware projects was to #buildabetterteapot. Tea Pi began as a project worked on between classes in my freshman year dormitory at Georgetown. Although the assorted wires, inept soldering, and endless sessions of me yelling at a e-cycled web camera to get voice-controls to work may have unnerved my roommate, the end result was well worth it.</description>
     </item>
     
     <item>
       <title>James Pavur</title>
-      <link>http://pavja2.github.io/about/</link>
+      <link>http://pavursec.com/about/</link>
       <pubDate>Fri, 14 Jul 2017 21:26:03 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/about/</guid>
+      <guid>http://pavursec.com/about/</guid>
       <description>Bio James Pavur is a recent graduate of Georgetown University&amp;rsquo;s Walsh School of Foreign Service where he majored in Science, Technology, and International Affairs. This autumn, he will head across the pond to begin working on a doctorate in Cyber Security from Oxford University&amp;rsquo;s Center for Doctoral Training as a Rhodes Scholar (Georgia and Wolfson, &amp;lsquo;17).
 His current research interests revolve around cyber policy and national cyber strategy. When he&amp;rsquo;s not considering policy and the &amp;lsquo;softer&amp;rsquo; side of cyber security he enjoys inventing, software development, and vulnerability research - especially as it relates to embedded &amp;ldquo;Internet of Things&amp;rdquo; devices and industrial control systems.</description>
     </item>

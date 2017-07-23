@@ -30,6 +30,12 @@ a:visited {
   height: auto;
 }
 
+.project-image {
+  padding-left: 0%;
+  padding-right: 3%;
+  padding-bottom: 1%;
+}
+
 /* About Page */
 .about-image{
   max-width: 30%;
@@ -47,6 +53,25 @@ a:visited {
 
 .card h2 {
   color: white;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
 }
 
 /* Articles */

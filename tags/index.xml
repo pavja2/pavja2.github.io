@@ -2,219 +2,219 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>http://pavja2.github.io/tags/</link>
+    <link>http://pavursec.com/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jul 2017 12:27:47 -0400</lastBuildDate>
     
-	<atom:link href="http://pavja2.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pavursec.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Accessibility</title>
-      <link>http://pavja2.github.io/tags/accessibility/</link>
+      <link>http://pavursec.com/tags/accessibility/</link>
       <pubDate>Thu, 20 Jul 2017 12:27:47 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/accessibility/</guid>
+      <guid>http://pavursec.com/tags/accessibility/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>http://pavja2.github.io/tags/blog/</link>
+      <link>http://pavursec.com/tags/blog/</link>
       <pubDate>Thu, 20 Jul 2017 15:03:11 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/blog/</guid>
+      <guid>http://pavursec.com/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data</title>
-      <link>http://pavja2.github.io/tags/data/</link>
+      <link>http://pavursec.com/tags/data/</link>
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/data/</guid>
+      <guid>http://pavursec.com/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Games</title>
-      <link>http://pavja2.github.io/tags/games/</link>
+      <link>http://pavursec.com/tags/games/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/games/</guid>
+      <guid>http://pavursec.com/tags/games/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gender</title>
-      <link>http://pavja2.github.io/tags/gender/</link>
+      <link>http://pavursec.com/tags/gender/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/gender/</guid>
+      <guid>http://pavursec.com/tags/gender/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hackathon</title>
-      <link>http://pavja2.github.io/tags/hackathon/</link>
+      <link>http://pavursec.com/tags/hackathon/</link>
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/hackathon/</guid>
+      <guid>http://pavursec.com/tags/hackathon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hardware</title>
-      <link>http://pavja2.github.io/tags/hardware/</link>
+      <link>http://pavursec.com/tags/hardware/</link>
       <pubDate>Thu, 20 Jul 2017 12:27:47 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/hardware/</guid>
+      <guid>http://pavursec.com/tags/hardware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://pavja2.github.io/tags/hugo/</link>
+      <link>http://pavursec.com/tags/hugo/</link>
       <pubDate>Thu, 20 Jul 2017 15:03:11 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/hugo/</guid>
+      <guid>http://pavursec.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iot</title>
-      <link>http://pavja2.github.io/tags/iot/</link>
+      <link>http://pavursec.com/tags/iot/</link>
       <pubDate>Thu, 20 Jul 2017 11:16:39 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/iot/</guid>
+      <guid>http://pavursec.com/tags/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Networking</title>
-      <link>http://pavja2.github.io/tags/networking/</link>
+      <link>http://pavursec.com/tags/networking/</link>
       <pubDate>Thu, 20 Jul 2017 10:49:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/networking/</guid>
+      <guid>http://pavursec.com/tags/networking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal</title>
-      <link>http://pavja2.github.io/tags/personal/</link>
+      <link>http://pavursec.com/tags/personal/</link>
       <pubDate>Thu, 20 Jul 2017 13:39:29 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/personal/</guid>
+      <guid>http://pavursec.com/tags/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physical Security</title>
-      <link>http://pavja2.github.io/tags/physical-security/</link>
+      <link>http://pavursec.com/tags/physical-security/</link>
       <pubDate>Thu, 20 Jul 2017 10:49:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/physical-security/</guid>
+      <guid>http://pavursec.com/tags/physical-security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Policy</title>
-      <link>http://pavja2.github.io/tags/policy/</link>
+      <link>http://pavursec.com/tags/policy/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/policy/</guid>
+      <guid>http://pavursec.com/tags/policy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Raspberry Pi</title>
-      <link>http://pavja2.github.io/tags/raspberry-pi/</link>
+      <link>http://pavursec.com/tags/raspberry-pi/</link>
       <pubDate>Thu, 20 Jul 2017 11:16:39 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/raspberry-pi/</guid>
+      <guid>http://pavursec.com/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robot</title>
-      <link>http://pavja2.github.io/tags/robot/</link>
+      <link>http://pavursec.com/tags/robot/</link>
       <pubDate>Wed, 19 Jul 2017 23:36:03 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/robot/</guid>
+      <guid>http://pavursec.com/tags/robot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scanning</title>
-      <link>http://pavja2.github.io/tags/scanning/</link>
+      <link>http://pavursec.com/tags/scanning/</link>
       <pubDate>Thu, 20 Jul 2017 11:16:39 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/scanning/</guid>
+      <guid>http://pavursec.com/tags/scanning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Security</title>
-      <link>http://pavja2.github.io/tags/security/</link>
+      <link>http://pavursec.com/tags/security/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/security/</guid>
+      <guid>http://pavursec.com/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sniffing</title>
-      <link>http://pavja2.github.io/tags/sniffing/</link>
+      <link>http://pavursec.com/tags/sniffing/</link>
       <pubDate>Thu, 20 Jul 2017 10:49:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/sniffing/</guid>
+      <guid>http://pavursec.com/tags/sniffing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tea</title>
-      <link>http://pavja2.github.io/tags/tea/</link>
+      <link>http://pavursec.com/tags/tea/</link>
       <pubDate>Wed, 19 Jul 2017 23:36:03 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/tea/</guid>
+      <guid>http://pavursec.com/tags/tea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unity</title>
-      <link>http://pavja2.github.io/tags/unity/</link>
+      <link>http://pavursec.com/tags/unity/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/unity/</guid>
+      <guid>http://pavursec.com/tags/unity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visualization</title>
-      <link>http://pavja2.github.io/tags/visualization/</link>
+      <link>http://pavursec.com/tags/visualization/</link>
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/visualization/</guid>
+      <guid>http://pavursec.com/tags/visualization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vr</title>
-      <link>http://pavja2.github.io/tags/vr/</link>
+      <link>http://pavursec.com/tags/vr/</link>
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/vr/</guid>
+      <guid>http://pavursec.com/tags/vr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>http://pavja2.github.io/tags/web/</link>
+      <link>http://pavursec.com/tags/web/</link>
       <pubDate>Thu, 20 Jul 2017 13:39:29 -0400</pubDate>
       
-      <guid>http://pavja2.github.io/tags/web/</guid>
+      <guid>http://pavursec.com/tags/web/</guid>
       <description></description>
     </item>
     
