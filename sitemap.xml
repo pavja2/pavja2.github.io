@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://pavursec.com/blog/hackathons-vs-ctfs/</loc>
+    <lastmod>2017-07-29T03:57:17-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://pavursec.com/blog/static-security/</loc>
     <lastmod>2017-07-20T20:05:37-04:00</lastmod>
   </url>
@@ -78,7 +83,13 @@
   
   <url>
     <loc>http://pavursec.com/blog/</loc>
-    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
+    <lastmod>2017-07-29T03:57:17-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavursec.com/categories/career/</loc>
+    <lastmod>2017-07-29T03:57:17-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,6 +102,12 @@
   <url>
     <loc>http://pavursec.com/categories/completed_projects/</loc>
     <lastmod>2017-07-20T12:50:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://pavursec.com/tags/ctf/</loc>
+    <lastmod>2017-07-29T03:57:17-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,6 +148,12 @@
   </url>
   
   <url>
+    <loc>http://pavursec.com/tags/hackathons/</loc>
+    <lastmod>2017-07-29T03:57:17-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://pavursec.com/tags/hardware/</loc>
     <lastmod>2017-07-20T12:27:47-04:00</lastmod>
     <priority>0</priority>
@@ -155,8 +178,14 @@
   </url>
   
   <url>
+    <loc>http://pavursec.com/tags/jobs/</loc>
+    <lastmod>2017-07-29T03:57:17-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://pavursec.com/</loc>
-    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
+    <lastmod>2017-07-29T03:57:17-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -222,7 +251,7 @@
   
   <url>
     <loc>http://pavursec.com/categories/security/</loc>
-    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
+    <lastmod>2017-07-29T03:57:17-04:00</lastmod>
     <priority>0</priority>
   </url>
   
