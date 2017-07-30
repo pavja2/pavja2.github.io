@@ -65,8 +65,14 @@
   </url>
   
   <url>
+    <loc>http://pavursec.com/tags/aws/</loc>
+    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://pavursec.com/tags/blog/</loc>
-    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -95,8 +101,14 @@
   </url>
   
   <url>
+    <loc>http://pavursec.com/tags/ddos/</loc>
+    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://pavursec.com/categories/development/</loc>
-    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -126,7 +138,7 @@
   
   <url>
     <loc>http://pavursec.com/tags/hugo/</loc>
-    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -210,7 +222,7 @@
   
   <url>
     <loc>http://pavursec.com/categories/security/</loc>
-    <lastmod>2017-07-20T15:03:11-04:00</lastmod>
+    <lastmod>2017-07-20T20:05:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   

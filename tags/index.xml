@@ -21,9 +21,18 @@
     </item>
     
     <item>
+      <title>Aws</title>
+      <link>http://pavursec.com/tags/aws/</link>
+      <pubDate>Thu, 20 Jul 2017 20:05:37 -0400</pubDate>
+      
+      <guid>http://pavursec.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Blog</title>
       <link>http://pavursec.com/tags/blog/</link>
-      <pubDate>Thu, 20 Jul 2017 15:03:11 -0400</pubDate>
+      <pubDate>Thu, 20 Jul 2017 20:05:37 -0400</pubDate>
       
       <guid>http://pavursec.com/tags/blog/</guid>
       <description></description>
@@ -35,6 +44,15 @@
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
       <guid>http://pavursec.com/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ddos</title>
+      <link>http://pavursec.com/tags/ddos/</link>
+      <pubDate>Thu, 20 Jul 2017 20:05:37 -0400</pubDate>
+      
+      <guid>http://pavursec.com/tags/ddos/</guid>
       <description></description>
     </item>
     
@@ -77,7 +95,7 @@
     <item>
       <title>Hugo</title>
       <link>http://pavursec.com/tags/hugo/</link>
-      <pubDate>Thu, 20 Jul 2017 15:03:11 -0400</pubDate>
+      <pubDate>Thu, 20 Jul 2017 20:05:37 -0400</pubDate>
       
       <guid>http://pavursec.com/tags/hugo/</guid>
       <description></description>
