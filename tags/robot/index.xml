@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robot on My New Hugo Site</title>
-    <link>http://pavursec.com/tags/robot/</link>
+    <link>https://pavursec.com/tags/robot/</link>
     <description>Recent content in Robot on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Jul 2017 23:36:03 -0400</lastBuildDate>
     
-	<atom:link href="http://pavursec.com/tags/robot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pavursec.com/tags/robot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tea Pi</title>
-      <link>http://pavursec.com/project/tea-pi/</link>
+      <link>https://pavursec.com/project/tea-pi/</link>
       <pubDate>Wed, 19 Jul 2017 23:36:03 -0400</pubDate>
       
-      <guid>http://pavursec.com/project/tea-pi/</guid>
+      <guid>https://pavursec.com/project/tea-pi/</guid>
       <description>Tea Pi As a huge tea aficionado, it makes sense that one of my first hardware projects was to #buildabetterteapot. Tea Pi began as a project worked on between classes in my freshman year dormitory at Georgetown. Although the assorted wires, inept soldering, and endless sessions of me yelling at a e-cycled web camera to get voice-controls to work may have unnerved my roommate, the end result was well worth it.</description>
     </item>
     

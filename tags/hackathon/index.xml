@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hackathon on My New Hugo Site</title>
-    <link>http://pavursec.com/tags/hackathon/</link>
+    <link>https://pavursec.com/tags/hackathon/</link>
     <description>Recent content in Hackathon on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jul 2017 00:17:08 -0400</lastBuildDate>
     
-	<atom:link href="http://pavursec.com/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pavursec.com/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VR Data Mapper</title>
-      <link>http://pavursec.com/project/vr-data-mapper/</link>
+      <link>https://pavursec.com/project/vr-data-mapper/</link>
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
-      <guid>http://pavursec.com/project/vr-data-mapper/</guid>
+      <guid>https://pavursec.com/project/vr-data-mapper/</guid>
       <description>VR Data Mapper At Bitcamp 2015 my team worked to find a way to best display open source data from the DC government using VR technology. This project allows a user to observe a map of Washington DC&amp;rsquo;s wards through an Oculus rift and display a number of geographically impacted datasets on the map.
 By using the Leap Motion, we were able to integrate hand gestures and sophisticated menus, simplifying complex operations and allowing users to focus on exploring the data before them.</description>
     </item>

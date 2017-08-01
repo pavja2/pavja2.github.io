@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Accessibility on My New Hugo Site</title>
-    <link>http://pavursec.com/tags/accessibility/</link>
+    <link>https://pavursec.com/tags/accessibility/</link>
     <description>Recent content in Accessibility on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jul 2017 12:27:47 -0400</lastBuildDate>
     
-	<atom:link href="http://pavursec.com/tags/accessibility/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pavursec.com/tags/accessibility/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Typeface</title>
-      <link>http://pavursec.com/project/typeface/</link>
+      <link>https://pavursec.com/project/typeface/</link>
       <pubDate>Thu, 20 Jul 2017 12:27:47 -0400</pubDate>
       
-      <guid>http://pavursec.com/project/typeface/</guid>
+      <guid>https://pavursec.com/project/typeface/</guid>
       <description>Typeface Typeface was the winner of the first Hoya Hacks hackathon at Georgetown University. The goal was to build a device that would allow even a fully paralyzed individual to communicated at a reasonable rate with loved ones.
 The proof of concept device leverages the Muse Headband - a consumer product prices at less than $300 and targeted towards helping individuals meditate and improve mindfulness.
 The UI of the project was inspired by stories of &amp;ldquo;tap codes&amp;rdquo; used by Vietnam Prisoners of War to communicate with each other without relying on the more complicated Morse Code.</description>

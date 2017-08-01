@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ctf on My New Hugo Site</title>
-    <link>http://pavursec.com/tags/ctf/</link>
+    <link>https://pavursec.com/tags/ctf/</link>
     <description>Recent content in Ctf on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Jul 2017 03:57:17 -0400</lastBuildDate>
     
-	<atom:link href="http://pavursec.com/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pavursec.com/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hackathons vs. CTFs</title>
-      <link>http://pavursec.com/blog/hackathons-vs-ctfs/</link>
+      <link>https://pavursec.com/blog/hackathons-vs-ctfs/</link>
       <pubDate>Sat, 29 Jul 2017 03:57:17 -0400</pubDate>
       
-      <guid>http://pavursec.com/blog/hackathons-vs-ctfs/</guid>
+      <guid>https://pavursec.com/blog/hackathons-vs-ctfs/</guid>
       <description>One piece of advice I give to people looking to transition from computer science homework assignments to meaningful proficiency in cybersecurity is to seek out Hackathons and Capture-the-Flag competitions.
 Sometimes the amount of information on these events can seem overwhelming and it can be difficult for someone starting out to know which events are worthwhile and how to best make use of opportunities. After attending a number of these competitions myself, I wanted to share some of the advice I wish someone had given me.</description>
     </item>

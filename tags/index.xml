@@ -2,264 +2,264 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>http://pavursec.com/tags/</link>
+    <link>https://pavursec.com/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jul 2017 12:27:47 -0400</lastBuildDate>
     
-	<atom:link href="http://pavursec.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pavursec.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Accessibility</title>
-      <link>http://pavursec.com/tags/accessibility/</link>
+      <link>https://pavursec.com/tags/accessibility/</link>
       <pubDate>Thu, 20 Jul 2017 12:27:47 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/accessibility/</guid>
+      <guid>https://pavursec.com/tags/accessibility/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aws</title>
-      <link>http://pavursec.com/tags/aws/</link>
+      <link>https://pavursec.com/tags/aws/</link>
       <pubDate>Thu, 20 Jul 2017 20:05:37 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/aws/</guid>
+      <guid>https://pavursec.com/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>http://pavursec.com/tags/blog/</link>
+      <link>https://pavursec.com/tags/blog/</link>
       <pubDate>Thu, 20 Jul 2017 20:05:37 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/blog/</guid>
+      <guid>https://pavursec.com/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ctf</title>
-      <link>http://pavursec.com/tags/ctf/</link>
+      <link>https://pavursec.com/tags/ctf/</link>
       <pubDate>Sat, 29 Jul 2017 03:57:17 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/ctf/</guid>
+      <guid>https://pavursec.com/tags/ctf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data</title>
-      <link>http://pavursec.com/tags/data/</link>
+      <link>https://pavursec.com/tags/data/</link>
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/data/</guid>
+      <guid>https://pavursec.com/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ddos</title>
-      <link>http://pavursec.com/tags/ddos/</link>
+      <link>https://pavursec.com/tags/ddos/</link>
       <pubDate>Thu, 20 Jul 2017 20:05:37 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/ddos/</guid>
+      <guid>https://pavursec.com/tags/ddos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Games</title>
-      <link>http://pavursec.com/tags/games/</link>
+      <link>https://pavursec.com/tags/games/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/games/</guid>
+      <guid>https://pavursec.com/tags/games/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gender</title>
-      <link>http://pavursec.com/tags/gender/</link>
+      <link>https://pavursec.com/tags/gender/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/gender/</guid>
+      <guid>https://pavursec.com/tags/gender/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hackathon</title>
-      <link>http://pavursec.com/tags/hackathon/</link>
+      <link>https://pavursec.com/tags/hackathon/</link>
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/hackathon/</guid>
+      <guid>https://pavursec.com/tags/hackathon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hackathons</title>
-      <link>http://pavursec.com/tags/hackathons/</link>
+      <link>https://pavursec.com/tags/hackathons/</link>
       <pubDate>Sat, 29 Jul 2017 03:57:17 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/hackathons/</guid>
+      <guid>https://pavursec.com/tags/hackathons/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hardware</title>
-      <link>http://pavursec.com/tags/hardware/</link>
+      <link>https://pavursec.com/tags/hardware/</link>
       <pubDate>Thu, 20 Jul 2017 12:27:47 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/hardware/</guid>
+      <guid>https://pavursec.com/tags/hardware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://pavursec.com/tags/hugo/</link>
+      <link>https://pavursec.com/tags/hugo/</link>
       <pubDate>Thu, 20 Jul 2017 20:05:37 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/hugo/</guid>
+      <guid>https://pavursec.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iot</title>
-      <link>http://pavursec.com/tags/iot/</link>
+      <link>https://pavursec.com/tags/iot/</link>
       <pubDate>Thu, 20 Jul 2017 11:16:39 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/iot/</guid>
+      <guid>https://pavursec.com/tags/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jobs</title>
-      <link>http://pavursec.com/tags/jobs/</link>
+      <link>https://pavursec.com/tags/jobs/</link>
       <pubDate>Sat, 29 Jul 2017 03:57:17 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/jobs/</guid>
+      <guid>https://pavursec.com/tags/jobs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Networking</title>
-      <link>http://pavursec.com/tags/networking/</link>
+      <link>https://pavursec.com/tags/networking/</link>
       <pubDate>Thu, 20 Jul 2017 10:49:13 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/networking/</guid>
+      <guid>https://pavursec.com/tags/networking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal</title>
-      <link>http://pavursec.com/tags/personal/</link>
+      <link>https://pavursec.com/tags/personal/</link>
       <pubDate>Thu, 20 Jul 2017 13:39:29 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/personal/</guid>
+      <guid>https://pavursec.com/tags/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physical Security</title>
-      <link>http://pavursec.com/tags/physical-security/</link>
+      <link>https://pavursec.com/tags/physical-security/</link>
       <pubDate>Thu, 20 Jul 2017 10:49:13 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/physical-security/</guid>
+      <guid>https://pavursec.com/tags/physical-security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Policy</title>
-      <link>http://pavursec.com/tags/policy/</link>
+      <link>https://pavursec.com/tags/policy/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/policy/</guid>
+      <guid>https://pavursec.com/tags/policy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Raspberry Pi</title>
-      <link>http://pavursec.com/tags/raspberry-pi/</link>
+      <link>https://pavursec.com/tags/raspberry-pi/</link>
       <pubDate>Thu, 20 Jul 2017 11:16:39 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/raspberry-pi/</guid>
+      <guid>https://pavursec.com/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robot</title>
-      <link>http://pavursec.com/tags/robot/</link>
+      <link>https://pavursec.com/tags/robot/</link>
       <pubDate>Wed, 19 Jul 2017 23:36:03 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/robot/</guid>
+      <guid>https://pavursec.com/tags/robot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scanning</title>
-      <link>http://pavursec.com/tags/scanning/</link>
+      <link>https://pavursec.com/tags/scanning/</link>
       <pubDate>Thu, 20 Jul 2017 11:16:39 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/scanning/</guid>
+      <guid>https://pavursec.com/tags/scanning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Security</title>
-      <link>http://pavursec.com/tags/security/</link>
+      <link>https://pavursec.com/tags/security/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/security/</guid>
+      <guid>https://pavursec.com/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sniffing</title>
-      <link>http://pavursec.com/tags/sniffing/</link>
+      <link>https://pavursec.com/tags/sniffing/</link>
       <pubDate>Thu, 20 Jul 2017 10:49:13 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/sniffing/</guid>
+      <guid>https://pavursec.com/tags/sniffing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tea</title>
-      <link>http://pavursec.com/tags/tea/</link>
+      <link>https://pavursec.com/tags/tea/</link>
       <pubDate>Wed, 19 Jul 2017 23:36:03 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/tea/</guid>
+      <guid>https://pavursec.com/tags/tea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unity</title>
-      <link>http://pavursec.com/tags/unity/</link>
+      <link>https://pavursec.com/tags/unity/</link>
       <pubDate>Thu, 20 Jul 2017 12:50:13 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/unity/</guid>
+      <guid>https://pavursec.com/tags/unity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visualization</title>
-      <link>http://pavursec.com/tags/visualization/</link>
+      <link>https://pavursec.com/tags/visualization/</link>
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/visualization/</guid>
+      <guid>https://pavursec.com/tags/visualization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vr</title>
-      <link>http://pavursec.com/tags/vr/</link>
+      <link>https://pavursec.com/tags/vr/</link>
       <pubDate>Thu, 20 Jul 2017 00:17:08 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/vr/</guid>
+      <guid>https://pavursec.com/tags/vr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>http://pavursec.com/tags/web/</link>
+      <link>https://pavursec.com/tags/web/</link>
       <pubDate>Thu, 20 Jul 2017 13:39:29 -0400</pubDate>
       
-      <guid>http://pavursec.com/tags/web/</guid>
+      <guid>https://pavursec.com/tags/web/</guid>
       <description></description>
     </item>
     
