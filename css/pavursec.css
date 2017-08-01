@@ -75,7 +75,7 @@ a:visited {
 }
 
 /* Articles */
-.markdown-content h2 {
+.markdown-content h2, h3, h4 {
   color: white;
   line-height: 2;
 }
