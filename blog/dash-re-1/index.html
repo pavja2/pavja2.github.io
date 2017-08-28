@@ -1,0 +1,227 @@
+<head>
+<meta name=viewport content="width=device-width, , initial-scale=1">
+
+<script src="https://use.fontawesome.com/bc441f02a6.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/pavursec.css">
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+</head>
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="buttom" data-toggle="collapse" data-target="#navbar-content">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="/">
+    <img src="/img/logo_45_white.png" width="30" height="30">
+  </a>
+
+<div class="collapse navbar-collapse" id="navbar-content">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="/project">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/blog">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/about">About</a>
+    <li>
+  </ul>
+</div>
+</nav>
+<br>
+
+<div class="container">
+
+
+
+
+
+  <h1 class="display-4">
+    Reverse Engineering the Amazon Dash Wand: Part 1 - First Steps
+  </h1>
+
+  <p>
+    <small><em>
+      Posted: August 14, 2017 by James Pavur
+    </small></em>
+  </p>
+  <hr/>
+  <div class="container markdown-content">
+    
+
+<h2 id="about-the-project">About the Project</h2>
+
+<p>I recently picked up Amazon&rsquo;s new Dash Wand essentially for free due to an Amazon promotion ($20 worth of Amazon credits if you purchase the $20 device).</p>
+
+<p>The device itself packs a pretty hefty amount of hardware for the cost. It includes a microphone, a linear image sensor for barcode reading, assorted LEDs, a nice big button, speakers, Bluetooth Low Energy and Wifi. It&rsquo;s all powered by (replaceable) AAA batteries, can be affixed to any magnetic surface or hung from an adhesive hook it ships with, and is remarkably compact and portable.</p>
+
+
+<figure class="fig-50">
+    
+        <img src="/img/blog/dash-re-1/dash_wand.PNG" alt="Compact, cheap, lots of hardware." />
+    
+    
+    <figcaption>
+        <p>
+        Compact, cheap, lots of hardware.
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>In short, this is a pretty astounding amount of hardware to be able to snag for free and nothing to sneeze at for the full $20 price. Of course, Amazon is likely subsidizing the hardware costs a little in the hopes of seducing consumers into using the device to do shopping without leaving home.</p>
+
+<p>As a hacker though, it would be nice to &ldquo;liberate&rdquo; IOT devices like this and have full control over the data they send and what is done with it.</p>
+
+<p>This series of blog posts covers the steps I&rsquo;m taking to understand and (hopefully) take control of my Amazon Wand. I&rsquo;m writing it contemporaneously with my research to share the process I take when assessing devices and help any other researchers looking at the Wand themselves or similar IOT platforms in the future replicate this approach.</p>
+
+<h2 id="step-1-research">Step 1: Research</h2>
+
+
+<figure class="fig-75">
+    
+        <img src="/img/blog/dash-re-1/google_search.PNG" alt="Worth a shot..." />
+    
+    
+    <figcaption>
+        <p>
+        Worth a shot...
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>IOT hacking is very much a &ldquo;shoulders of giants&rdquo; sort of hobby and getting a sense of what other people have done with a target platform, as well as making use of any public information, is an important step.</p>
+
+<p>The best source I&rsquo;ve found on the Dash Wand&rsquo;s hardware has to be Matthew Petroff&rsquo;s <a href="https://mpetroff.net/2016/12/second-generation-amazon-dash-wand-teardown/#rf2-2360">excellent teardown</a>. Although it seems to refer to a slightly earlier version of the device from a software perspective. The FCC-ID and model number align with the one I picked up though, which means the hardware should be more or less identical. His teardown gave a really good sense of what was inside the device and also included two very important clues for me:</p>
+
+<ul>
+<li>&ldquo;the software appears to share a code base with the second generation Dash Button&rdquo;</li>
+<li>&ldquo;its primary configuration interface is Bluetooth Low Energy&rdquo;</li>
+</ul>
+
+<p>The first clue helped me expand my research to a few other helpful sources. Knowing that the wand shared functionality with a Dash button directed me to look at a handful of existing projects reversing previous Amazon Dash Buttons. Unfortunately, as my research progressed it turned out that the Dash Wand had disabled much of the functionalities previous hacking efforts had focused on (such as the /flash endpoint in the original device, documented <a href="https://github.com/amcsorley/dashing">here</a>).</p>
+
+<h2 id="step-2-networking">Step 2: Networking</h2>
+
+<p>Once I had the device in hand, one of the first things I wanted to check was how it communicates to Amazon&rsquo;s services. A lot of IoT devices will implement APIs in a way that can be intercepted and manipulated (for example, providing a fake firmware update to the device).</p>
+
+<p>My IOT capture setup involves a Raspberry Pi 3 that is configured as a wireless access point using hostapd. On the Pi, I run tcpdump to capture traffic and mitmproxy to attack SSL connections. I find this setup generally more reliable then putting a wireless adapter into monitor mode and capturing traffic over the air with airodump-ng or some similar tool.</p>
+
+
+<figure class="fig-75">
+    
+        <img src="/img/blog/dash-re-1/dash_pcap_setup.PNG" alt="All TLS. But a DNS lookup of interest." />
+    
+    
+    <figcaption>
+        <p>
+        All TLS. But a DNS lookup of interest.
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>Unfortunately, if unsurprisingly, the traffic generated by my Dash button was all encrypted. Although some IoT devices still use unencrypted traffic to talk to their servers, I figured Amazon would do a little better than that.</p>
+
+<p>Still, even TLS traffic can have some interesting tidbits inside it. For example, I learned that the dash button communicates during setup with a server at &ldquo;dash.us-east-1.amazon.com&rdquo;</p>
+
+
+<figure class="fig-75">
+    
+        <img src="/img/blog/dash-re-1/dash_website_get.PNG" alt="Not much. But not a 404!" />
+    
+    
+    <figcaption>
+        <p>
+        Not much. But not a 404!
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>A simple GET request to that site (over https) gives me the message &ldquo;healthy.&rdquo; This tells me that the site is willing to negotiate a connection with any client SSL certificate. That&rsquo;s not always the case with IoT devices as some require clients to have certificates signed by the manufacturer.</p>
+
+<h2 id="step-3-what-to-do-about-tls-aka-dead-end-1">Step 3: What to do about TLS? (aka. Dead End 1)</h2>
+
+<p>It would be very nice to figure out what the client is sending to this server. That information might allow us to, for example, download firmware files for the device or see what kind of information the device is sending about us to Amazon.</p>
+
+<p>One trick that often works on IoT devices is a simple SSL Man-in-the-Middle attack where you present self signed certificates to the target device. In the name of efficiency (or laziness), many IoT devices do not verify certificates against a root CA and will trust any valid looking certificate they receive. The mitmproxy tool is a great way to execute these attacks and a transparent mitmproxy will often trick your run-of-the-mill IOT products.</p>
+
+
+<figure >
+    
+        <img src="/img/blog/dash-re-1/mitmproxy_warning_device_pinning.PNG" alt="Wand&#39;s not buying it." />
+    
+    
+    <figcaption>
+        <p>
+        Wand&#39;s not buying it.
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>Unfortunately, once again, Amazon proved a cut above the IOT norm. The device was unwilling to trust any self-signed certificates sent its way.</p>
+
+<p>This meant that a MITM attack against the SSL connection was very unlikely to work. I&rsquo;d have to figure out another way to snag the device&rsquo;s communications.</p>
+
+<h1 id="step-4-network-information-recap">Step 4: Network information recap</h1>
+
+<p>Despite not immediately compromising the devices&rsquo; secure communication channel, this first phase of testing did reveal some useful information.</p>
+
+<p>First, I learned how my device identified itself on the network with the help of the arp command:</p>
+
+<pre><code>$ sudo arp
+Address                  HWtype  HWaddress           Flags Mask            Iface
+[other devices]
+WINC-00-00               ether   50:f5:da:69:5d:2a   C                     wlan0
+</code></pre>
+
+<p>I also learned which API server my Dash talks to by looking at DNS records. Due to the way internet works, you can almost always find out information from even SSL encoded traffic by taking a look at DNS packets and the transferred SSL certificates themselves (which report their hostnames). The only exception being if the vendor hardcodes IP addresses into their devices or uses encrypted DNS handoffs (very rare).</p>
+
+<p>In the next post in this series I&rsquo;ll step away from the internet communications side and look a little closer at the device itself.</p>
+
+  </div>
+  <hr/>
+  <div class="container clearfix">
+    
+      <a class="btn btn-outline-secondary float-left" href="https://pavursec.com/blog/hackathon-strategies/" role="button">
+        Previous
+      </a>
+    
+    
+      <a class="btn btn-outline-secondary float-right" href="https://pavursec.com/blog/dash-re-2/" role="button">
+        Next
+      </a>
+    
+  </div>
+
+</div>

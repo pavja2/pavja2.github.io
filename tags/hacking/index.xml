@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacking on My New Hugo Site</title>
+    <link>https://pavursec.com/tags/hacking/</link>
+    <description>Recent content in Hacking on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Aug 2017 16:11:30 -0400</lastBuildDate>
+    
+	<atom:link href="https://pavursec.com/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RE: Dash Wand</title>
+      <link>https://pavursec.com/project/dash-wand-re/</link>
+      <pubDate>Mon, 14 Aug 2017 16:11:30 -0400</pubDate>
+      
+      <guid>https://pavursec.com/project/dash-wand-re/</guid>
+      <description>Reverse Engineering: Dash Wand The Amazon Dash Wand packs some pretty powerful hardware in a cheap and attractive package. The only downside is that the device is locked down to the point where it&amp;rsquo;s good for only one thing: making orders on Amazon. This project is about liberating the hardware, seeing how secure the wand really is, getting better control over my data, and learning a bit about IOT reverse-engineering.</description>
+    </item>
+    
+  </channel>
+</rss>

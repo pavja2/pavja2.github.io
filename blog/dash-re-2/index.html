@@ -1,0 +1,204 @@
+<head>
+<meta name=viewport content="width=device-width, , initial-scale=1">
+
+<script src="https://use.fontawesome.com/bc441f02a6.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/pavursec.css">
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+
+</head>
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="buttom" data-toggle="collapse" data-target="#navbar-content">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="/">
+    <img src="/img/logo_45_white.png" width="30" height="30">
+  </a>
+
+<div class="collapse navbar-collapse" id="navbar-content">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="/project">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/blog">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/about">About</a>
+    <li>
+  </ul>
+</div>
+</nav>
+<br>
+
+<div class="container">
+
+
+
+
+
+  <h1 class="display-4">
+    Reverse Engineering the Amazon Dash Wand: Part 2 - Local Shenanigans
+  </h1>
+
+  <p>
+    <small><em>
+      Posted: August 20, 2017 by James Pavur
+    </small></em>
+  </p>
+  <hr/>
+  <div class="container markdown-content">
+    
+
+<h2 id="about-the-project">About the Project</h2>
+
+<p>This is the second in a series of posts outlining my efforts to reverse engineer the new Amazon Dash Wand to understand how it works and how secure it is. Rather than just do the typical security blog writeup of exploits, I wanted to share the entire process including the numerous dead ends and false leads involved in an embedded reverse engineering effort.</p>
+
+<p>You can find other posts in the series <a href="/tags/dash-wand">here</a>.</p>
+
+<h2 id="step-5-personal-teardown">Step 5 - Personal Teardown</h2>
+
+<p>Although Matthew Petroff had already done <a href="https://mpetroff.net/2016/12/second-generation-amazon-dash-wand-teardown/">an excellent teardown of the wand</a>, I wanted to be 100% sure that my device was identical and see if there might be any easy debug pins that had made their way on to more recent iterations of the device.</p>
+
+<p>The wand turned out to be far harder to get into than I expected due to some very strong plastic welds keeping the two halves of the case affixed to each other. This resulted in me more or less hopelessly scratching up my dash wand in an effort to slice through the welds and pop the device open.</p>
+
+
+<figure class="fig-75">
+    
+        <img src="/img/blog/dash-re-2/dash_corner.jpg" alt="Not pictured: subsequent cuts from attempting to open device with a pocketknife and no fine motor skills." />
+    
+    
+    <figcaption>
+        <p>
+        Not pictured: subsequent cuts from attempting to open device with a pocketknife and no fine motor skills.
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+
+<figure class="fig-75">
+    
+        <img src="/img/blog/dash-re-2/dash_opening.jpg" alt="Making Progress..." />
+    
+    
+    <figcaption>
+        <p>
+        Making Progress...
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+
+<figure class="fig-75">
+    
+        <img src="/img/blog/dash-re-2/dash_open.jpg" alt="Opened!" />
+    
+    
+    <figcaption>
+        <p>
+        Opened!
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>Eventually, by focusing on one of the two corners down by the battery side I was able to get enough leverage to pry open the case <em>and</em> I didn&rsquo;t end up breaking the device in the process.</p>
+
+
+<figure class="fig-75">
+    
+        <img src="/img/blog/dash-re-2/still_alive.jpg" alt="And it works too!" />
+    
+    
+    <figcaption>
+        <p>
+        And it works too!
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>If you want to try and pop open one of these wands yourself, I strongly recommend focusing on the lower corners and then prying up to the main body of the device. It&rsquo;s also worth noting that the LED barcode reader on the front of the device is affixed with some sort of adhesive and can just be peeled off like a sticker once you have enough of the main body pried open.</p>
+
+<p>Unsurprisingly, I didn&rsquo;t notice much more than what Matthew had already found on his version of the wand. Rather than poke around for UART pins (which likely are lying somewhere on the board, but, judging by past efforts with the Dash Button v2, don&rsquo;t offer much), I decided to close everything back up and return to the software side of things.</p>
+
+<h2 id="step-6-http-server">Step 6 - HTTP Server?</h2>
+
+<p>On the original dash buttons, during setup you could access a simple wireless access point called &ldquo;Amazon ConfigureMe&rdquo; and set network parameters there.</p>
+
+<p>In more recent versions, this server has hosted a JSON-based REST API which an android phone can connect to and configure the device via POST requests containing information like the target network&rsquo;s wifi credentials.</p>
+
+<p>By holding down the Dash Wand&rsquo;s button for a few seconds I was able to bring up the &ldquo;Amazon ConfigureMe&rdquo; hotspot. Connecting to the hostpot and then navigating to the default gateway (192.168.0.1) brought up a simple web interface that showed some information about my device.</p>
+
+
+<figure class="fig-75">
+    
+        <img src="/img/blog/dash-re-2/device_info.png" alt="The new Amazon ConfigureMe interface." />
+    
+    
+    <figcaption>
+        <p>
+        The new Amazon ConfigureMe interface.
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>Unfortunately, none of the previously discovered API endpoints from the Dash v2 appeared active and instead just returned 404 errors.</p>
+
+<p>To confirm, I put a kali laptop into monitor mode and sniffed traffic to the end point while running through the setup flow in the Amazon App. No traffic was actually exchanged between the ConfigureMe hotspot and my Android phone. If I disabled Bluetooth on my device, the phone refused to event attempt to connect to the Dash Wand (unlike in previous versions where it would fall back to wifi).</p>
+
+<h2 id="takeaways">Takeaways</h2>
+
+<p>Although the web application and hardware teardown turned out to be duds in terms of accessing the device, I did learn a few important things about the wand that will guide my next steps.</p>
+
+<p>First, I confirmed that my device was the same physical device as the early 2016 teardown performed by Matthew Petroff. This tells me that it&rsquo;s unlikely that there will be multiple versions of the dash wand on the market which means anything I can find online from other researchers is likely equally applicable to my own device.</p>
+
+<p>Second, I learned that the device behaves differently in setup mode than simply when it is being used. While the only manifestation of this change I&rsquo;ve encountered so far is the simple wifi hotspot it spins up, the discovery leads me to suspect that there might be other vulnerable behaviors that occur when the device is in this &ldquo;configuration mode&rdquo; that might not be detectable if I only audited a fully configured device.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>Since it appears that the Amazon App is able to communicate with the device in some way (likely bluetooth), perhaps I&rsquo;ll be able to find ways to pass vulnerable input information to the device over bluetooth communications channels. The first step to figuring out how to do that will be understanding how the official Amazon App communicates with the Wand.</p>
+
+<p>Stay tuned for the next post in this series where I take a look at the inner workings of the Amazon Android App.</p>
+
+  </div>
+  <hr/>
+  <div class="container clearfix">
+    
+      <a class="btn btn-outline-secondary float-left" href="https://pavursec.com/blog/dash-re-1/" role="button">
+        Previous
+      </a>
+    
+    
+  </div>
+
+</div>
