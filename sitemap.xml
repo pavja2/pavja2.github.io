@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pavursec.com/blog/dash-re-2/</loc>
+    <lastmod>2017-08-20T20:48:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pavursec.com/blog/dash-re-1/</loc>
+    <lastmod>2017-08-14T20:48:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pavursec.com/project/dash-wand-re/</loc>
+    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pavursec.com/blog/hackathon-strategies/</loc>
     <lastmod>2017-07-31T20:00:33-04:00</lastmod>
   </url>
@@ -75,7 +90,13 @@
   
   <url>
     <loc>https://pavursec.com/categories/active_projects/</loc>
-    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pavursec.com/tags/amazon/</loc>
+    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,7 +114,7 @@
   
   <url>
     <loc>https://pavursec.com/blog/</loc>
-    <lastmod>2017-07-31T20:00:33-04:00</lastmod>
+    <lastmod>2017-08-20T20:48:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -105,7 +126,7 @@
   
   <url>
     <loc>https://pavursec.com/categories/</loc>
-    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,6 +139,12 @@
   <url>
     <loc>https://pavursec.com/tags/ctf/</loc>
     <lastmod>2017-07-29T03:57:17-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pavursec.com/tags/dash-wand/</loc>
+    <lastmod>2017-08-20T20:48:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -136,6 +163,12 @@
   <url>
     <loc>https://pavursec.com/categories/development/</loc>
     <lastmod>2017-07-20T20:05:37-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pavursec.com/tags/embedded/</loc>
+    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -164,6 +197,12 @@
   </url>
   
   <url>
+    <loc>https://pavursec.com/tags/hacking/</loc>
+    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://pavursec.com/tags/hardware/</loc>
     <lastmod>2017-07-20T12:27:47-04:00</lastmod>
     <priority>0</priority>
@@ -183,7 +222,7 @@
   
   <url>
     <loc>https://pavursec.com/tags/iot/</loc>
-    <lastmod>2017-07-20T11:16:39-04:00</lastmod>
+    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -195,7 +234,7 @@
   
   <url>
     <loc>https://pavursec.com/</loc>
-    <lastmod>2017-07-31T20:00:33-04:00</lastmod>
+    <lastmod>2017-08-20T20:48:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -225,19 +264,25 @@
   
   <url>
     <loc>https://pavursec.com/project/</loc>
-    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://pavursec.com/categories/projects/</loc>
-    <lastmod>2017-07-20T13:39:29-04:00</lastmod>
+    <lastmod>2017-08-20T20:48:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://pavursec.com/tags/raspberry-pi/</loc>
     <lastmod>2017-07-20T11:16:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pavursec.com/tags/reverse-engineering/</loc>
+    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -255,13 +300,13 @@
   
   <url>
     <loc>https://pavursec.com/tags/security/</loc>
-    <lastmod>2017-07-20T12:50:13-04:00</lastmod>
+    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://pavursec.com/categories/security/</loc>
-    <lastmod>2017-07-29T03:57:17-04:00</lastmod>
+    <lastmod>2017-08-20T20:48:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
