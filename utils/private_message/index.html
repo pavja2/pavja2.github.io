@@ -1,1 +1,56 @@
-TEST_FILE
+<html>
+<head>
+	<script src="https://use.fontawesome.com/bc441f02a6.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/pavursec.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="/js/jsencrypt.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var pub_key = "-----BEGIN PUBLIC KEY-----"+
+							"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDm+dP9iR6uywZXVh75p5SOTJ3h"+
+							"2oq7JZ0rowIVvKESwwYi4bXfZKuRRL81Xj+AbG/H6aWGfbpN3QSKSAxt+8+rMg2K"+
+							"z2ZuCJxqIJIqdUQrnwxN3CxLSHdtNRYJ1cAyg1HT0fH4OxcIvh90dsF1lrGX9aqw"+
+							"sw/Y+9qWx16l8muoRwIDAQAB"+
+							"-----END PUBLIC KEY-----";
+
+			
+
+			var encrypt = new JSEncrypt();
+			encrypt.setPublicKey(pub_key);
+			$("#encrypt").click(function(){
+				if($("#message").val().length > 0){
+					var encrypted = encrypt.encrypt($('#message').val());
+					$("#result").val(encrypted);
+				}
+				else{
+					alert("You have to provide a message to encrypt");
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+	  <a class="navbar-brand" href="/">
+		<img src="/img/logo_45_white.png" width="30" height="30">
+		  <span class="navbar-text">&nbspSimple RSA Message Generator</span>
+	  </a>
+	</nav>
+	<br>
+	<div class="container-fluid">
+		<h5 class="text-light">Input your message below then press the encrypt button.</h5>
+		<div class="form-group">
+			<textarea class="form-control" id="message" rows="5"></textarea>
+		</div>
+		<button class="btn btn-success" id="encrypt">Encrypt my message!</button>
+		<br>
+		<br>
+		<h5 class="text-light">Copy the encrypted result below and send it to me. Only I can decrypt it.</h5>
+		<textarea readonly class="form-control" id="result" rows="5"></textarea>
+	</div>
+</body>
+</html>
