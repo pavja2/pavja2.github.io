@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pavursec.com/blog/ai-and-security-resources/</loc>
+    <lastmod>2018-02-20T13:58:33+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pavursec.com/blog/dash-re-2/</loc>
     <lastmod>2017-08-20T20:48:51-04:00</lastmod>
   </url>
@@ -114,7 +119,7 @@
   
   <url>
     <loc>https://pavursec.com/blog/</loc>
-    <lastmod>2017-08-20T20:48:51-04:00</lastmod>
+    <lastmod>2018-02-20T13:58:33+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -234,7 +239,7 @@
   
   <url>
     <loc>https://pavursec.com/</loc>
-    <lastmod>2017-08-20T20:48:51-04:00</lastmod>
+    <lastmod>2018-02-20T13:58:33+00:00</lastmod>
     <priority>0</priority>
   </url>
   
