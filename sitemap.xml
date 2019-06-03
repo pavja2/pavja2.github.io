@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pavursec.com/project/eoshield/</loc>
+    <lastmod>2019-06-03T15:43:36+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pavursec.com/blog/ai-and-security-resources/</loc>
     <lastmod>2018-02-20T13:58:33+00:00</lastmod>
   </url>
@@ -88,6 +93,12 @@
   </url>
   
   <url>
+    <loc>https://pavursec.com/tags/</loc>
+    <lastmod>2019-06-03T15:43:36+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://pavursec.com/tags/accessibility/</loc>
     <lastmod>2017-07-20T12:27:47-04:00</lastmod>
     <priority>0</priority>
@@ -95,7 +106,7 @@
   
   <url>
     <loc>https://pavursec.com/categories/active_projects/</loc>
-    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
+    <lastmod>2019-06-03T15:43:36+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,7 +142,7 @@
   
   <url>
     <loc>https://pavursec.com/categories/</loc>
-    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
+    <lastmod>2019-06-03T15:43:36+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -239,7 +250,7 @@
   
   <url>
     <loc>https://pavursec.com/</loc>
-    <lastmod>2018-02-20T13:58:33+00:00</lastmod>
+    <lastmod>2019-06-03T15:43:36+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -269,13 +280,13 @@
   
   <url>
     <loc>https://pavursec.com/project/</loc>
-    <lastmod>2017-08-14T16:11:30-04:00</lastmod>
+    <lastmod>2019-06-03T15:43:36+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://pavursec.com/categories/projects/</loc>
-    <lastmod>2017-08-20T20:48:51-04:00</lastmod>
+    <lastmod>2019-06-03T15:43:36+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -305,7 +316,7 @@
   
   <url>
     <loc>https://pavursec.com/categories/security/</loc>
-    <lastmod>2017-08-20T20:48:51-04:00</lastmod>
+    <lastmod>2019-06-03T15:43:36+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -323,7 +334,7 @@
   
   <url>
     <loc>https://pavursec.com/tags/</loc>
-    <lastmod>2017-07-20T12:27:47-04:00</lastmod>
+    <lastmod>2019-06-03T15:43:36+01:00</lastmod>
     <priority>0</priority>
   </url>
   
