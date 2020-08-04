@@ -17,8 +17,8 @@
       <pubDate>Mon, 03 Jun 2019 15:43:36 +0100</pubDate>
       
       <guid>https://pavursec.com/project/eoshield/</guid>
-      <description>Distributed applications lack reliable means of verifying the trustworthiness of their users and blockchain users have little information regarding the trustworthiness of distributed applications. EOShield was an hackathon competition entry at the 2018 EOS Global Hackathon which demonstrated the creation of a PKI-inspired distrubted trust model to reduce risk on DApp ecosystems.
-The project was pitched as a business but is currently a side project intended for open-source release to the EOS community.</description>
+      <description>Distributed applications lack reliable means of verifying the trustworthiness of their users and blockchain users have little information regarding the trustworthiness of distributed applications. EOShield was an hackathon competition entry at the 2018 EOS Global Hackathon which demonstrated the creation of a PKI-inspired distributed trust model to reduce risk on DApp ecosystems.
+The project was pitched as a business but is currently a side project which may see open-source release to the EOS community.</description>
     </item>
     
     <item>
@@ -184,8 +184,8 @@ By using the Leap Motion, we were able to integrate hand gestures and sophistica
       <pubDate>Fri, 14 Jul 2017 21:26:03 -0400</pubDate>
       
       <guid>https://pavursec.com/about/</guid>
-      <description>Bio James Pavur is a Rhodes Scholar and PhD student at Oxford University in the Centre for Doctoral Training on Cyber-Security. Prior to attending Oxford he graduated with valedictory honors from Georgetwn University&amp;rsquo;s Walsh School of Foreign Service where he majored in Science, Technology, and International Affairs.
-His PhD research revolves around the intersection between cyber-security and space technology with a particular focus on satellite communications. However, he has a broader interest in the dynamics of cyber-policy and national cyber-strategy.</description>
+      <description>Bio James Pavur is a Rhodes Scholar and PhD student at Oxford University in the Centre for Doctoral Training on Cyber-Security. Prior to attending Oxford he graduated with valedictory honors from Georgetown University&amp;rsquo;s Walsh School of Foreign Service where he majored in Science, Technology, and International Affairs.
+His PhD research revolves around the intersection between cyber-security and space technology with a particular focus on satellite communications. However, he has a broader general interest in cyber-security and cyber-policy.</description>
     </item>
     
   </channel>
