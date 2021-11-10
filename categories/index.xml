@@ -68,9 +68,18 @@
     <item>
       <title>Security</title>
       <link>https://pavursec.com/categories/security/</link>
-      <pubDate>Mon, 03 Jun 2019 15:43:36 +0100</pubDate>
+      <pubDate>Wed, 10 Nov 2021 22:39:09 +0000</pubDate>
       
       <guid>https://pavursec.com/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>https://pavursec.com/categories/talks/</link>
+      <pubDate>Wed, 10 Nov 2021 22:39:09 +0000</pubDate>
+      
+      <guid>https://pavursec.com/categories/talks/</guid>
       <description></description>
     </item>
     

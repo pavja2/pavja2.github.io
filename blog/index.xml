@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Feb 2018 13:58:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Nov 2021 22:39:09 +0000</lastBuildDate>
     
 	<atom:link href="https://pavursec.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SATCOMS Carving Lab</title>
+      <link>https://pavursec.com/blog/satcoms-carving-lab/</link>
+      <pubDate>Wed, 10 Nov 2021 22:39:09 +0000</pubDate>
+      
+      <guid>https://pavursec.com/blog/satcoms-carving-lab/</guid>
+      <description>I recently ran a series of Arsenal Lab demonstrations at Black Hat Europe 2021. These demonstrations focused on providing accessible introductions to using open source tools to interact with satellite signal recordings. Several folks asked for copies of the lab handouts used in those exercise, so I thought I&amp;rsquo;d post them here for anyone interested.
+MPEG-TS Lab: mpeg_ts_handout.pdf
+GSE LAB: gse_handout.pdf</description>
+    </item>
     
     <item>
       <title>Ai and Security Resources</title>
